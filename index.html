@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frankiee</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <div class="logo">
+          <img class="img1" src="images.jpeg" alt="" />
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a  class="footer-link" href="http://www.twitter.com/baefrankiee">Twitter</a></li>
+            <li><a class="footer-link" href="https://www.facebook.com/baefrankiee">Facebook</a></li>
+            <li><a  class="footer-link" href="https://www.instagram.com/baefrankiee">Instagram</a></li>
+            <li><a class="footer-link" href="https://www.linkedin.com/baefrankieee">Linkedin</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="information">
+          <div class="overlay"></div>
+          <img src="immage.jpg" class="picture">
+        <div id="circle">
+          <div class="feature one">
+            <img src="" alt="" />
+            <div>
+              <h1>
+          I'm Frankiee
+        </h1>
+        <p>
+          I am a Product and web designer in Nigeria
+          I plan,creat and code internet sites and web pages, many of which
+          combines text with sounds,pictures and graphics and video
+          clips.I also help organisations design,improve and maintain the
+          quality of their productsto match the needs of their target
+          audience.
+          i am currently working with
+          <a class="footer-link" href="https://www.instagram.com/snapilabs">
+            snapilabs</a
+          >,an independent design firm consisting of practising designers
+          and developers working together to
+          create meaningful experiences for brands and individuals.
+        </p></p>
+            </div>
+          </div>
+          <div class="feature two">
+            <img src="." alt="" />
+            <div>
+              <h1>about me</h1>
+              <p>i am frankiee</p>
+            </div>
+          </div>
+          <div class="feature three">
+            <img src="" alt="" />
+            <div>
+                <h1>About me</h1>
+                <p> i sm frankiee</p>
+            </div>
+          </div>
+          <div class="feature four">
+            <img src="" alt="" />
+            <div>
+                <h1>About me</h1>
+                <p> i sm frankiee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="control">
+          <img src="up.png" id="upbtn">
+          <h3>features</h3>
+          <img src="down.png" id="downbtn">
+
+      </div>
+    </div>
+    <script>
+        var circle = document.getElementById("circle");
+var upbtn = document.getElementById("upbtn");
+var downbtn = document.getElementById("downbtn");
+var rotatevalue = circle.style.transform;
+var rotatesum;
+ upbtn.onclick = function()
+ {
+     rotatesum = rotatevalue + "rotate(-90deg)";
+     circle.style.transform = rotatesum;
+     rotatevalue = rotatesum;
+ }
+ downbtn.onclick = function()
+ {
+     rotatesum = rotatevalue + "rotate(90deg)";
+     circle.style.transform = rotatesum;
+     rotatevalue = rotatesum;
+ }
+    </script>
+  </body>
+</html>
